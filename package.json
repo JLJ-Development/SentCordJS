@@ -12,5 +12,6 @@
     "bot list",
     "sentcord",
     "discord bot list"
-  ]
+  ],
+  "repository": {"url": "https://github.com/JLJ-Development/SentCordJS"}
 }
