@@ -1,6 +1,6 @@
 {
   "name": "sentcordjs",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "src/test/test.js",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
@@ -10,7 +10,10 @@
   "keywords": [
     "discord",
     "bot list",
-    "discord bot list"
+    "discord bot list",
+    "sentcord"
   ],
-  "repository": {"url": "https://github.com/JLJ-Development/SentCordJS"}
+  "repository": {
+    "url": "https://github.com/JLJ-Development/SentCordJS"
+  }
 }
