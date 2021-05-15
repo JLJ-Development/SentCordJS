@@ -1,10 +1,16 @@
 {
   "name": "sentcordjs",
-  "version": "1.0.0",
+  "version": "1.1.4",
   "main": "src/test/test.js",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.6.1"
-  }
+  },
+  "keywords": [
+    "discord",
+    "bot list",
+    "sentcord",
+    "discord bot list"
+  ]
 }
