@@ -1,4 +1,4 @@
-class sentcordClient {
+module.exports = class sentcordClient {
     constructor(apikey, botid) {
         /**
          * packages
@@ -33,4 +33,3 @@ class sentcordClient {
     }
 }
 
-module.exports = sentcordClient
