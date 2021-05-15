@@ -1,4 +1,5 @@
 var sentcordClient = require('../Client')
-var client = new sentcordClient('')
+var key = require(`./config/key.json`)
+var client = new sentcordClient(key.sentcord.key)
 
-client.stats('563197357697662988', '220').then(console.log('Stats posted!'))
+client.stats('')

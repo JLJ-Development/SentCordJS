@@ -16,6 +16,8 @@ class sentcordClient {
         this.fetch = require('node-fetch')
     }
     stats(botid, servers, shards) {
+        if(!this.apikey) throw new ReferenceError('In order to post your stats you need to pass in your API key. To access the api key do command ..apikey in the support server.')
+        if(!botid) throw new ReferenceError('In order to post your stats you need to pass in your bot id.')
         this.fetch(`https://sentcord.com/api/bot/${botid}`, {
             method: 'POST',
             headers: {
@@ -26,7 +28,7 @@ class sentcordClient {
             body: JSON.stringify({
                 serverCount: servers,
                 shardCount: shards
-             }).then(r => r.json()).then(d => console.log(d)).catch(e => console.log(e.stack))
+             })
         }) 
     }
 }

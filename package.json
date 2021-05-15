@@ -1,7 +1,7 @@
 {
   "name": "sentcordjs",
   "version": "1.0.0",
-  "main": "src/Client.js",
+  "main": "src/test/test.js",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
