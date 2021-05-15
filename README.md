@@ -7,4 +7,4 @@
  const sentcordClient = require('sentcordjs')
  var key = 'uihfiluwhfiuwhfiusdhfauidfhsdiufhasldufhsdilfuhsdfiulhffjhf'
  var sentcord = new sentcordClient(key)
- client.stats('botid', 'servercount', 'shard count')
+ sentcord.stats('botid', 'servercount', 'shard count')
