@@ -4,7 +4,6 @@
 
  # Setup
  ```javascript
- const sentcordClient = require('sentcordjs')
  var key = 'uihfiluwhfiuwhfiusdhfauidfhsdiufhasldufhsdilfuhsdfiulhffjhf'
  var sentcord = new sentcordClient(key)
  sentcord.stats('botid', 'servercount', 'shard count')
