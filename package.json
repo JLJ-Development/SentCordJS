@@ -7,6 +7,7 @@
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
+  "contributors": ["colderry"],
   "keywords": [
     "discord",
     "bot list",
